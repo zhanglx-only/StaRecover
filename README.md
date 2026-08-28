@@ -140,7 +140,7 @@ requires an explicit model path.
 python ./auto_infer/auto_infer.py \
   ./data/test.jsonl \
   --model-path ./models/starecover \
-  --loops 2 \
+  --loops 4 \
   --gpus 0,1
 ```
 
