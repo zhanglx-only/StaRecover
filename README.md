@@ -40,7 +40,7 @@ python ./data_preprocess/label_align/parse_bin.py \
 ### 3. Generate context and align labels
 
 ```bash
-python ./data_preprocess/label_align/gen_context.py \
+python ./data_preprocess/label_align/gen_gt_context.py \
   --root_dir ./data
 
 python ./data_preprocess/label_align/align.py \
