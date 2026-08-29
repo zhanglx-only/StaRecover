@@ -80,9 +80,6 @@ python ./data_preprocess/rag/rag_simi.py \
 
 ### 6. Generate summary prompts and summaries
 
-First create binary-analysis records. The analysis script requires a directory
-containing `.result` files and writes an analysis JSON beside each result.
-
 ```bash
 python ./data_preprocess/gen_summary/gen_analysis.py ./data/results --workers 8
 
